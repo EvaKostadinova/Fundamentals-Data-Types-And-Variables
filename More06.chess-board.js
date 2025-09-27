@@ -1,4 +1,4 @@
-function chessBoard(n) {
+function chessBoards(n) {
     let result = '<div class="chessboard">\n';
 
     for(let row = 0; row < n; row++){
@@ -21,4 +21,4 @@ function chessBoard(n) {
 
 
 
-console.log(chessBoard(3));
+console.log(chessBoards(3));
